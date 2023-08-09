@@ -9,7 +9,7 @@ class Ball:
     COLOR = WHITE
     RADIUS = BALL_RADIUS
     def __init__(self, window_width, window_height):
-    
+        
         self.window_width = window_width
         self.window_height = window_height
 
