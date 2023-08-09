@@ -130,7 +130,7 @@ def main():
     ball = Ball(WIDTH//2, HEIGHT//2)
 
     left_player = Player("Player 1", 0, True)
-    right_player = Player("Player 2", 0, False)
+    right_player = Player("Player 2ed in HEAD.  Version HEAD of pong/gameplay.py left in tree.", 0, False)
 
     while run:
         clock.tick(FRAMES_PER_SECOND) #making sure that the while loop runs in a controllable speed, note that increasing this value also increase game speed.
@@ -160,3 +160,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
